@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* <!-- main-section --> */
+
+
+/* basic-css */
+.container{
+    margin: 0 20px;
+
+}
+/* basic-css */
+
+.header-item{
+background-color: rgb(0, 0, 0);
+height: 100px;
+margin: 0 50px;
+text-align: center;
+}
+
+.header-item li{
+    list-style-type: none;
+}
+.header-item a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.header-item a{
+    border-bottom: 2px solid rgb(255, 0, 85);
+padding:10px;
+
+}
+
+
+
+.header-item ul li {
+display: inline-block;
+margin: 20px;
+padding-top: 20px;
+}
+
+
+
+
+.information{
+    margin: 0 50px!important;
+    height: 100vh;
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('freelance-careers.jpg');
+}
+
+
+
+.information{
+    padding-top: 50px ;
+    text-align: center;
+   
+}
+
+
+.inform-title{
+    padding:100px;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+.inform-title h1{
+    color:black;
+    font-size: 40px;
+    text-transform:capitalize;
+}
+
+
+.inform-title input{
+    margin-top: 30px;
+    border: none;
+    background-color:rgb(255, 255, 255); 
+    height: 40px;
+    width: 300px;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+button{
+    border: none;
+    background-color:rgb(255, 0, 85);
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 20px;
+margin-left: 20px;
+animation: butt;
+animation-duration: 0.2s inherit;
+}
+
+
+@keyframes button {
+    0%{
+        color: purple;
+    }
+   5%{
+        color: rgb(6, 0, 128);
+    }
+    
+}
+
+
+
+/* <!-- main-section --> */
+
+/* <!-- contact --> */
+#contact{
+    margin: 0 50px!important;
+padding-bottom: 70px;
+}
+
+
+.contact-title{
+    display: flex;
+    text-align: center;
+
+}
+
+.title{
+    margin: 0 20px;
+    padding:  50;
+   margin-left: 140px;
+ 
+
+}
+.title h1{
+    font-size: 30px;
+}
+.title h2{
+
+    font-size: 30px;
+    color: rgb(255, 0, 85);
+    text-transform: uppercase;
+}
+.title strong{
+    font-size: 20px;
+    color: gray;
+    padding-top: 10px;
+}
+
+/* <!--End contact --> */
+
+
+/* <!-- banner --> */
+
+#banner{
+    padding-top: 100px;
+    margin: 0 50px!important;
+    height: 400px;
+    margin-top: 100px;
+
+    padding-top: 0;
+    background-color:lightblue;
+}
+
+
+
+.banner-item{
+    display: flex;
+  
+}
+
+.banner-item img{
+height: 400px;
+}
+
+
+.title{
+  padding-top: 100px;
+  align-items: center;
+  margin: 30px 50px;
+}
+
+.title h2{
+    font-size: 30px;
+    margin: 20px;
+}
+.title p{
+    font-size: 20px;
+    line-height: 30px;
+ 
+}
+.title a{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+ 
+}
+
+
+/* <!--End banner --> */
+
+
+/* <!--------- gallery ----------> */
+
+
+#gallery{
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 50px!important;
+    
+}
+
+.gallery-header{
+    text-align: center;
+    word-spacing: 4px;
+    
+}
+
+.gallery-header h1{
+    font-size: 30px;
+}
+.gallery-header p{
+    font-size: 20px;
+    color: gray;
+}
+
+
+.gallery-item img{
+    text-align: center;
+    height: 100px;
+    padding-right: 150px;
+}
+.galler-all-item1{
+
+    padding-left: 250px;
+    padding-top: 50px;
+   text-align: center;
+    display: flex;
+}
+.galler-all-item1 h1{
+    margin-right: 150px;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+.galler-all-item1 p{
+    margin-right: 150px;
+   font-weight: bold;
+   color:gray;
+   font-size: 20px;
+}
+.galler-all-item2{
+    padding-left: 250px;
+    padding-top: 50px;
+   text-align: center;
+    display: flex;
+}
+.galler-all-item2 h1{
+    margin-right: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+.galler-all-item2 p{
+    margin-right: 150px;
+   font-weight: bold;
+   color:gray;
+   font-size: 20px;
+ }
+
+
+ .btn{
+    text-align: center;
+    margin-top: 50px;
+    
+ }
+
+ .btn button{
+
+ height: 35px;
+ width: 170px;
+ border: none;
+ border-radius: 20px;
+ color: #fff;
+ text-transform: uppercase;
+ background-color: rgb(255, 0, 85);
+}
+/* <!--------ENd gallery ----------> */
+
+
+
+
+
+/* <!----- work ------> */
+#work{
+text-align: center;
+padding-top: 50px;
+    margin: 100px 50px!important;
+    height: 400px;
+    background-color:rgb(180, 205, 213);
+}
+.work-title h1{
+    font-size: 30px;
+
+}
+.work-title p{
+    font-size: 20px;
+    color:rgb(117, 105, 105); 
+}
+
+.work-list{
+    padding-top: 20px;
+    display: flex;
+
+}
+
+.work-item{
+  margin: 30px;
+}
+.work-item h4{
+width: 100px;
+
+margin-left: 100px;
+  border-top: 2px solid rgb(255, 0, 85);
+}
+.work-item h4{
+font-size: 20px;
+text-transform: uppercase;
+}
+.work-item p{
+font-size: 15px;
+color:rgb(117, 105, 105); 
+}
+.work-item img{
+  height: 100px;
+  width: 100px;
+ margin-bottom: 20px;
+  border-radius: 87px;
+}
+
+
+/* <!-----End work ------> */
+
+
+/* <!-- choose --> */
+#choose{
+ 
+    margin: 100px 50px!important;
+}
+.choose-title{
+    text-align: center;
+    margin: 30px;
+}
+.choose-title span{
+text-transform: uppercase;
+font-weight: bold;
+font-size: x-small;
+}
+.choose-title h2{
+
+font-weight: bold;
+
+}
+.choose-title p{
+
+color: rgb(107, 99, 99);
+
+}
+
+.card-item{
+    display: flex;
+    text-align: center;
+   margin-left: 350px;
+   padding-right: 50px;
+}
+
+.choose-card1{
+    padding-top: 10px;
+    height: 120px;
+    width: 200px;
+   margin-right: 50px;
+    background-color:lightblue;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+/* <!-- End choose --> */
+
+
+
